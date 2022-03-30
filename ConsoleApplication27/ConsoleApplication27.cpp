@@ -101,7 +101,7 @@ int main()
 
 
 
-    //обход стека с помощью итератора
+  
     for (int i = 0; i < size; i++) {
         if (numbers.peek() % 2 == 0) {
             even_elements.push(numbers.peek());//добавление в список если четное число
